@@ -1,14 +1,17 @@
 {
 	"name": "fcc-learn-node-with-express",
 	"version": "0.1.0",
+	"description": "A boilerplate express project",
+	"author": "andreviton",
 	"dependencies": {
-		"express": "^4.14.0",
 		"body-parser": "^1.15.2",
 		"cookie-parser": "^1.4.3",
-		"fcc-express-bground": "https://github.com/freeCodeCamp/fcc-express-bground-pkg.git"
+		"dotenv": "^10.0.0",
+		"express": "^4.14.0",
+		"fcc-express-bground": "https://github.com/andreviton/boilerplate-express.git"
 	},
 	"main": "server.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node server.js -h 0.0.0.0"
 	}
 }
